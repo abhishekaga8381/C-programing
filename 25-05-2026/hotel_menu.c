@@ -229,7 +229,7 @@ int main(){
         south_indian_thali:
 
         printf("\n you have selected south indian thali \n");
-        printf("\n 1. Dosa = Rs. 50 /n");
+        printf("\n 1. Dosa = Rs. 70 /n");
         printf("\n 2. Idli = Rs. 40 /n");
         printf("\n 3. Vada = Rs. 30 /n");
         printf("\n 4. Upma = Rs. 60 /n");
@@ -238,7 +238,7 @@ int main(){
         scanf("%d", &item);
         if (item == 1)
         {
-            total = total + 50;
+            total = total + 70;
         }
         else if (item == 2)
         {
