@@ -10,9 +10,9 @@ int main(){
     while(i<=20)
     {
         printf("%d\n",i);        
-            total=total+i;
+            
             i=i+2;
-
+            total=total+i;
     }
     printf("sum of all 10 even no. = %d",total);
 }
